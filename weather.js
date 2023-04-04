@@ -4,6 +4,10 @@ const msgSpan = document.querySelector(".top-banner .msg");
 const list = document.querySelector(".cities");
 
 // localStorage.setItem apikey done.
+localStorage.setItem(
+  "apikey",
+  EncryptStringAES("4d8fb5b93d4af21d66a2948710284366")
+);
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
