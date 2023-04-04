@@ -40,8 +40,8 @@ input {
 
 img {
   display: block;
-  width: auto !important;
-  max-height: 100% !important;
+  /* width: auto !important;
+  max-height: 100% !important; */
 }
 
 ul {
@@ -192,8 +192,8 @@ body {
 }
 
 #logo {
-  width: 100px;
-  height: 100px;
+  width: auto;
+  max-height: 180px;
 }
 
 /* MQ
